@@ -2,13 +2,13 @@
 
 ## 📌 Project Overview
 
-This project focuses on predicting the compressive strength of concrete using machine learning.
+This project focuses on predicting the compressive strength of concrete using Machine Learning.
 
-The model uses the composition of concrete ingredients and its age to estimate the compressive strength.
+The model uses the quantities of concrete ingredients and the age of the concrete to estimate its compressive strength in MPa.
 
 ## 🎯 Objective
 
-The main objective is to build a machine learning model that can predict concrete compressive strength based on the available input features.
+The main objective is to build a Machine Learning Regression Model that can predict concrete compressive strength based on its input features.
 
 ## 🛠️ Technologies Used
 
@@ -17,31 +17,53 @@ The main objective is to build a machine learning model that can predict concret
 - Pandas
 - NumPy
 - Matplotlib
+- Seaborn
 - Scikit-learn
 - Linear Regression
 
+## 📊 Dataset
+
+The dataset contains concrete composition information along with the corresponding compressive strength.
+
+### Input Features
+
+- Cement
+- Blast Furnace Slag
+- Fly Ash
+- Water
+- Superplasticizer
+- Coarse Aggregate
+- Fine Aggregate
+- Age
+
+### Target
+
+- Concrete Compressive Strength (MPa)
+
 ## 🔄 Project Workflow
 
-1. Load the concrete dataset
+1. Load the dataset
 2. Explore and understand the data
-3. Perform data preprocessing
-4. Split the dataset into training and testing sets
-5. Train a Linear Regression model
-6. Evaluate the model using appropriate evaluation metrics
-7. Predict compressive strength for new input data
+3. Check missing and duplicate values
+4. Perform exploratory data analysis
+5. Analyze feature correlations
+6. Split data into training and testing sets
+7. Train a Linear Regression model
+8. Evaluate the model using regression metrics
+9. Predict compressive strength for new data
 
-## 📊 Model
+## 🤖 Machine Learning Model
 
-A Linear Regression model is used to predict the compressive strength of concrete.
-
-## 📁 Project Files
-
-- `Concrete_Compressive_Strength_Prediction.ipynb` – Complete project notebook containing data analysis, preprocessing, model training, evaluation, and predictions.
+A **Linear Regression** model is used for predicting the compressive strength of concrete.
 
 ## 💡 Key Learning
 
-This project provided hands-on experience in applying machine learning techniques to a real-world regression problem and understanding the complete machine learning workflow.
+This project provided hands-on experience with the complete Machine Learning workflow, including data exploration, visualization, preprocessing, model training, evaluation, and prediction.
+
+## 📁 Project File
+
+- `Concrete_Compressive_Strength_Prediction.ipynb` – Complete Jupyter/Google Colab notebook containing the project code, explanations, visualizations, model evaluation, and predictions.
 
 ## 👩‍💻 Author
 
-Rutuja Ganorkar
+**Rutuja Ganorkar**
