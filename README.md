@@ -36,33 +36,58 @@ The dataset contains concrete composition information along with the correspondi
 - Fine Aggregate
 - Age
 
-### Target
+### Target Variable
 
 - Concrete Compressive Strength (MPa)
 
 ## 🔄 Project Workflow
 
-1. Load the dataset
+1. Load the concrete dataset
 2. Explore and understand the data
 3. Check missing and duplicate values
 4. Perform exploratory data analysis
 5. Analyze feature correlations
-6. Split data into training and testing sets
+6. Split the data into training and testing sets
 7. Train a Linear Regression model
 8. Evaluate the model using regression metrics
-9. Predict compressive strength for new data
+9. Predict compressive strength for a new sample
 
 ## 🤖 Machine Learning Model
 
-A **Linear Regression** model is used for predicting the compressive strength of concrete.
+A **Linear Regression** model is used to predict the compressive strength of concrete based on its composition and age.
+
+## 📈 Model Performance
+
+The Linear Regression model was evaluated using multiple regression metrics.
+
+| Metric | Result |
+|--------|--------:|
+| MAE | 8.22 |
+| MAPE | 29.55% |
+| MSE | 114.27 |
+| RMSE | 10.69 |
+| R² Score | 0.56 |
+
+The model achieved an R² score of approximately **0.56** on the test data, providing a baseline approach for predicting concrete compressive strength.
+
+## 🔮 Sample Prediction
+
+For a sample concrete mixture with an age of **28 days**, the model predicted a compressive strength of approximately **23.37 MPa**.
 
 ## 💡 Key Learning
 
-This project provided hands-on experience with the complete Machine Learning workflow, including data exploration, visualization, preprocessing, model training, evaluation, and prediction.
+This project provided hands-on experience with the complete Machine Learning workflow, including:
+
+- Data exploration
+- Data visualization
+- Data analysis
+- Model training
+- Model evaluation
+- Prediction using new data
 
 ## 📁 Project File
 
-- `Concrete_Compressive_Strength_Prediction.ipynb` – Complete Jupyter/Google Colab notebook containing the project code, explanations, visualizations, model evaluation, and predictions.
+- `Concrete_Compressive_Strength_Prediction_(1).ipynb` – Complete Google Colab notebook containing the project code, explanations, visualizations, model evaluation, and predictions.
 
 ## 👩‍💻 Author
 
